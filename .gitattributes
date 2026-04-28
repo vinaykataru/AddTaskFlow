@@ -1,0 +1,6 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Keep node modules as binary / unchanged
+backend/node_modules/** -text
+frontend/node_modules/** -text
