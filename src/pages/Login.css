@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+
+.login-container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 59px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+
+.login-container input:focus {
+  border-color: #007bff;
+}
+
+.login-container button {
+  width: 45%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-container button:first-of-type {
+  background: #007bff;
+  color: white;
+}
+
+.login-container button:last-of-type {
+  background: #28a745;
+  color: white;
+}
+
+.Total-container{
+  background-color: aqua;
+  min-height: 100vh;
+}
+
+.input-container1{
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.input-container2{
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.button1{
+  background: #007bff;
+  color: white;
+  padding:10px;
+  border: none;
+  margin: 10px;
+}
+
+.button2{
+  background: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
